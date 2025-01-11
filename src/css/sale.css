@@ -1,0 +1,175 @@
+/*
+Mobile
+w=335px
+
+.container {
+    min-width: 320px;
+    max-width: 375px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+Tablet
+@media only screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+        padding: 0 30px;
+    }
+}
+Desktop
+@media only screen and (min-width: 1280px) {
+    .container {
+        max-width: 1151px;
+        padding: 0;
+    }
+}
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+.sale {
+    padding: 30px 0;
+}
+
+.sale-title {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #0c0c0c;
+    margin-bottom: 24px;
+}
+
+.sale-thumbnail-list {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 20px;
+}
+
+.sale-thumbnail-item {
+    border: 1px solid rgba(12, 12, 12, 0.05);
+    border-radius: 16px;
+    width: 80px;
+    height: auto;
+    background: #f3f3f3;
+    padding: 13px 14px;
+
+}
+
+.sale-watchcharm-main-model {
+    max-width: 335px;
+    height: auto;
+    border: 1px solid rgba(12, 12, 12, 0.05);
+    border-radius: 30px;
+    background: #f3f3f3;
+    padding: 50px;
+    margin-bottom: 20px;
+}
+
+.sale-watchcharm-main-model-img {
+    width: 235px;
+    height: auto;
+}
+
+
+.sale-watchcharm-card-descr {
+    background-color: #3350E9;
+    border-radius: 30px;
+    max-width: 335px;
+    height: auto;
+    padding: 48px 28px;
+}
+
+.sale-watchcharm-model-name {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.16667;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+    margin-bottom: 10px;
+}
+
+.sale-watchcharm-article {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.28571;
+    letter-spacing: -0.02em;
+    color: rgba(251, 251, 251, 0.5);
+    margin-bottom: 20px;
+}
+
+.sale-price {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 28px;
+}
+
+.sale-watchcharm-cost {
+    border-radius: 8px;
+    width: 68px;
+    height: 32px;
+    background: rgba(251, 251, 251, 0.1);
+
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+    margin-right: 9px;
+    padding: 8px 12px;
+}
+
+.sale-watchcharm-previous-cost {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.16667;
+    letter-spacing: -0.02em;
+    text-decoration: line-through;
+    color: rgba(251, 251, 251, 0.5);
+}
+
+.sale-watchcharm-model-descr {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.28571;
+    letter-spacing: -0.02em;
+    color: rgba(251, 251, 251, 0.7);
+    margin-bottom: 28px;
+}
+
+.sale-watchcharm-model-characteristics {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.sale-watchcharm-model-characteristic {
+    display: inline-flex;
+    border: 1px solid rgba(251, 251, 251, 0.2);
+    border-radius: 8px;
+    padding: 8px 12px;
+
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.33333;
+    color: #fbfbfb;
+
+}
+
+
+
+
+
+@media only screen and (min-width: 768px) {
+    .sale {
+        padding: 40px 0;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .sale {
+        padding: 50px 0;
+    }
+}
