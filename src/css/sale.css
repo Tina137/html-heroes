@@ -72,7 +72,6 @@ Desktop
     height: auto;
 }
 
-
 .sale-watchcharm-card-descr {
     background-color: #3350E9;
     border-radius: 30px;
@@ -155,16 +154,71 @@ Desktop
     font-size: 12px;
     line-height: 1.33333;
     color: #fbfbfb;
-
 }
-
-
-
-
 
 @media only screen and (min-width: 768px) {
     .sale {
         padding: 40px 0;
+    }
+    .sale-title {
+        font-size: 48px;
+        line-height: 0.91667;
+        margin-bottom: 40px;
+    }
+    .sale-thumbnail-list-container {
+        display: flex;
+        gap: 20px;
+        margin-bottom: 40px;
+        max-width: 704px;
+    }
+    .sale-thumbnail-list {
+        flex-direction: column;
+        margin: 0;
+        gap: 10px;
+    }
+    .sale-thumbnail-item {
+        border-radius: 20px;
+        width: 132px;
+        padding: 16px 18px;
+    }
+    .sale-watchcharm-main-model {
+        max-width: 552px;
+        border-radius: 50px;
+        padding: 80px 112px;
+        margin-bottom: 0;
+    }
+    .sale-watchcharm-main-model-img {
+        width: 328px;
+    }
+    .sale-watchcharm-card-descr {
+        border-radius: 50px;
+        max-width: 704px;
+        padding: 60px;
+    }
+    .sale-watchcharm-model-name {
+        font-size: 32px;
+        line-height: 1.125;
+        max-width: 436px;
+    }
+    .sale-price {
+        margin-bottom: 30px;
+    }
+    .sale-watchcharm-cost {
+        width: 78px;
+        font-size: 20px;
+        line-height: 1;
+    }
+    .sale-watchcharm-model-descr {
+        font-size: 16px;
+        line-height: 1.25;
+        margin-bottom: 40px;
+    }
+    .sale-watchcharm-model-characteristics {
+       width: 398px; 
+    }
+    .sale-watchcharm-model-characteristic {
+        font-size: 14px;
+        line-height: 1.28571;
     }
 }
 
@@ -172,4 +226,25 @@ Desktop
     .sale {
         padding: 50px 0;
     }
+    .sale-container {
+        display: flex;
+        gap: 40px;
+        max-width: 1150px;
+    }
+    .sale-watchcharm-main-model {
+        max-width: 428px;
+        padding: 80px 50px;
+    }
+    .sale-thumbnail-list-container {
+        margin: 0;
+    }
+    .sale-watchcharm-card-descr {
+        max-width: 530px;
+    }
+    .sale-watchcharm-model-name {
+        max-width: 389px;
+    }
+
+
+
 }
