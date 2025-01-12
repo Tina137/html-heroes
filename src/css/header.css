@@ -1,0 +1,83 @@
+.header {
+  padding: 20px 0;
+  border-bottom: 1px solid rgba(12, 12, 12, 0.1);
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.heder-logo {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: -0.25%;
+}
+.header-burgler {
+  border: none;
+}
+.header-sections_buttons {
+  display: none;
+}
+.header-social_list {
+  display: none;
+}
+@media only screen and (min-width: 768px) {
+  .header {
+    padding: 26px 0;
+  }
+  .heder-logo {
+    font-size: 20px;
+  }
+  .header_bicon {
+    width: 40px;
+    height: 40px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .header-burgler {
+    display: none;
+  }
+  .header-nav {
+    display: flex;
+    gap: 203px;
+  }
+  .header-link {
+    font-weight: 500;
+    font-size: 14px;
+    padding-bottom: 10px;
+  }
+  .header-link_in {
+    position: relative;
+  }
+  .header-link_in::after {
+    content: '';
+    width: 8px;
+    height: 8px;
+    background-color: #3350e9;
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - 4px);
+    border-radius: 100%;
+  }
+  .header-sections_buttons {
+    display: flex;
+    gap: 40px;
+  }
+  .header-social_list {
+    display: flex;
+    gap: 10px;
+  }
+  .header-social-media_link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(12, 12, 12, 0.1);
+    border-radius: 10px;
+    padding: 8px;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .header-social-media_link:hover .header_sicon {
+    fill: #3350e9;
+  }
+}
