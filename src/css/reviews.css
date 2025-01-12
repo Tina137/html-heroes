@@ -1,7 +1,5 @@
 .reviews{
-    margin: 0;
-    padding: 0;
-    padding-top: 30px 0;
+    padding-top: 30px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -19,27 +17,9 @@
     }
 }
 .reviews-div {
-    display: flex;
     width: 100%;
     justify-content: center;
-    padding: 0 20px;
 }
-@media screen and (min-width: 768px){
-    .reviews-div {
-    
-        padding: 0 32px;
-    }
-}
-@media screen and (min-width: 1280px){
-    .reviews-div {
-    
-        padding: 0 65px;
-    }
-}
-
-ul {
-    list-style-type: none;
-}  
 
 .slider {
     overflow: hidden;
@@ -50,12 +30,11 @@ ul {
     align-items: center;
 }
 .slides{
-    margin: 0;
-    padding: 0;
     display: flex;
     width: 100%;
     background-color: #ffff;
     animation: slide 8s infinite;
+
 }
 .slide {
     width: 335px;
@@ -145,63 +124,56 @@ ul {
 }
 }
 .reviews-h3 {
-    font-family: Gilroy, sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 20px;
-    text-align: center;
     margin: 0;
     color: #0C0C0C;
-    padding-top: 24px;
+    margin-top: 24px;
 
 }
 
 .reviews-h2{
-    font-family: Gilroy;
     font-size: 32px;
     font-weight: 600;
     line-height: 32px;
     letter-spacing: -0.02em;
     color: #0C0C0C;
     margin: 0;
-    padding-bottom: 24px;
-    padding-left: 20px;
+    margin-bottom: 24px;
+
+}
+@media screen and (max-width: 330px){
+    .reviews-h2{
+        margin-left: 20px;
+    }
 }
 @media screen and (min-width: 768px){
     .reviews-h2{
-        padding-bottom: 40px;
-        padding-left: 32px;
+        margin-bottom:40px;
         
     }
-    .reviews-h3 {font-family: Gilroy;
-font-size: 18px;
-font-weight: 500;
-line-height: 19.8px;
+    .reviews-h3 {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 19.8px;
 
     }
 }
-@media screen and (min-width: 1280px){
-    .reviews-h2{
-        padding-left: 65px;
-    }
-}
 .reviews-p {
-    font-family: Gilroy, sans-serif;
     font-size: 14px;
     font-weight: 500;
     line-height: 18px;
     text-align: center;
     color: #0C0C0C66;
-    margin: 0;
-    padding-top: 8px;
+    margin-top: 8px;
 }
 @media screen and (min-width: 768px){
     .reviews-p{
-font-size: 16px;
-line-height: 20px;
-letter-spacing: -0.02em;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: -0.02em;
     }
-    
 }
 
 
