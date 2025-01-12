@@ -10,6 +10,7 @@
   .container {
     max-width: 768px;
     padding: 0 30px;
+    padding: 0 32px;
   }
 }
 /* Styles for Desktop devices */
