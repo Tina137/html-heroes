@@ -8,7 +8,7 @@
 	background-repeat: no-repeat;
 	background-image: url(../img/menu/watch-mobil/watch-mobil@1x.jpg);
 	background-position: center;
-    background-size: cover;
+    
 
     opacity: 0;
     visibility: hidden;
@@ -26,7 +26,6 @@
 
 .menu-container {
     position: relative;
-    padding-top: 72px;
     padding-bottom: 40px;
     display: flex;
     flex-direction: column;
@@ -35,8 +34,8 @@
 
 .menu-close {
     position: absolute;
-    top: 24px;
-    right: 24px;
+    top: 26px;
+    right: 32px;
 
     display: flex;
     justify-content: center;
@@ -46,14 +45,11 @@
 	
 	border: medium none;
 	background-color: rgba(24,24,24,0);
-	background-image: none;
     padding: 0;
 }
 
 .menu-nav {
 	margin: auto;
-    align-items: center;
-	justify-content: center;
 }
 
 .nav-link-menu {
@@ -74,13 +70,12 @@
     content: '';
     position: absolute;
     left: 50%;
-    bottom: 0;
+    bottom: -8px;
 	transform: translate(-50%, 50%);
     width: 8px;
     height: 8px;
     background-color: #3350e9;
     border-radius: 100%;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-menu-list {
@@ -103,7 +98,14 @@
     height: 100%;
     border: 1px solid rgba(251, 251, 251, 0.1);
 	border-radius: 10px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.svg-icon {
+    fill: #fbfbfb;
+}
+
+.svg-icon:hover {
+    fill: #fbfbfb;
 }
 
 @media screen and (max-width: 767px) and (min-resolution: 192dpi) {
@@ -116,9 +118,24 @@
     .menu {
         background-image: url(../img/menu/watch-tablet/watch-tablet@1x.jpg);
     }
+
+    .menu-close {
+        width: 40px;
+        height: 40px;
+    }
+
+    .svg-closs {
+        width: 40px;
+        height: 40px;
+    }
+
+    .social-menu-item {
+        width: 36px;
+        height: 36px;
+    }
 }
 
-@media screen and (min-width: 767px) and (min-resolution: 192dpi) {
+@media screen and (min-width: 768px) and (min-resolution: 192dpi) {
     .menu {
         background-image: url(../img/menu/watch-tablet/watch-tablet@2x.jpg);
     }
