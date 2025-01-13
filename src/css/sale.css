@@ -24,16 +24,12 @@
 .sale-thumbnail-item {
     border: 1px solid rgba(12, 12, 12, 0.05);
     border-radius: 16px;
-    width: 80px;
-    height: auto;
     background: #f3f3f3;
     padding: 13px 14px;
 
 }
 
 .sale-watchcharm-main-model {
-    max-width: 335px;
-    height: auto;
     border: 1px solid rgba(12, 12, 12, 0.05);
     border-radius: 30px;
     background: #f3f3f3;
@@ -41,16 +37,9 @@
     margin-bottom: 20px;
 }
 
-.sale-watchcharm-main-model-img {
-    width: 235px;
-    height: auto;
-}
-
 .sale-watchcharm-card-descr {
     background-color: #3350E9;
     border-radius: 30px;
-    max-width: 335px;
-    height: auto;
     padding: 48px 28px;
 }
 
@@ -81,8 +70,6 @@
 
 .sale-watchcharm-cost {
     border-radius: 8px;
-    width: 68px;
-    height: 32px;
     background: rgba(251, 251, 251, 0.1);
 
     font-weight: 600;
@@ -119,7 +106,6 @@
 }
 
 .sale-watchcharm-model-characteristic {
-    display: inline-flex;
     border: 1px solid rgba(251, 251, 251, 0.2);
     border-radius: 8px;
     padding: 8px 12px;
@@ -218,7 +204,4 @@
     .sale-watchcharm-model-name {
         max-width: 389px;
     }
-
-
-
 }
