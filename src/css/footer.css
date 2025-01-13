@@ -96,12 +96,13 @@
     justify-content: center;
     width: 152px;
     height: 44px;
-    transition: font-size 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .foot-phone:hover,
 .foot-phone:focus {
     font-size: 13px;
+    opacity: 0.8;
 }
 
 @media screen and (min-width: 768px) {
@@ -192,7 +193,13 @@
 }
 
 .foot-nav-link {
-    color: #fbfbfb;
+    color: #fbfbfb;   
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.foot-nav-link:hover,
+.foot-nav-link:focus {
+    opacity: 0.6;
 }
 
 .foot-phys-address {
@@ -259,6 +266,12 @@
 
 .foot-terms-policy-link {
     color: rgba(251, 251, 251, 0.5);
+}
+
+.foot-terms-policy-link:hover,
+.foot-terms-policy-link:focus {
+    color: #fbfbfb;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 @media screen and (min-width: 768px) {
