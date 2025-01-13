@@ -1,0 +1,135 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: url('./fonts/Gilroy-Regular.woff2') format('woff2'),
+         url('./fonts/Gilroy-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('./fonts/Gilroy-Bold.woff2') format('woff2'),
+         url('./fonts/Gilroy-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Gilroy', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: 50px auto;
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+.about-section {
+    flex: 1;
+    background-color: #F3F3F3;
+    border-radius: 50px;
+    padding: 80px;
+    box-sizing: border-box;
+    text-align: left;
+    height: auto;
+    margin: 0;
+}
+
+.about-section h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #0C0C0C;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    font-size: 1rem;
+    color: #0C0C0C;
+    margin-bottom: 20px;
+}
+
+
+.catalog-button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #3350E9;
+    color: white;
+    text-decoration: none;
+    border-radius: 24px;
+    font-size: 1rem;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    text-align: center;
+}
+
+.catalog-button:hover {
+    background-color: #1F3CD4;
+    transform: scale(1.05); 
+}
+
+.image-section {
+    flex: 1;
+    padding: 40px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-section img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .about-section {
+        width: 90%;
+        padding: 40px;
+    }
+
+    .image-section {
+        width: 100%;
+        padding: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-section {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .image-section {
+        width: 100%;
+    }
+
+    .about-section h1 {
+        font-size: 2rem;
+    }
+}
