@@ -20,7 +20,7 @@ width: 100%
     .contact-us-general-div { 
     gap: 40px;}
 }
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1280px) {
     .contact-us-general-div {
         flex-direction: row;
     }
@@ -42,7 +42,7 @@ background: #f3f3f3;
 padding: 50px 122px;
     }
 }
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1280px) {
     .contact-us-page {
         padding: 50px 60px;
         width: 580px;
