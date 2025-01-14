@@ -1,18 +1,48 @@
-<section id="about-us">
-    <div class="container">
-        <div class="about-section">
-            <h1>About Us</h1>
-            <p>Welcome to our premium watch collection, where luxury and style meet functionality and precision. 
-               Our selection of timepieces embodies the very best in Swiss craftsmanship and engineering, 
-               ensuring that you'll always have a reliable and stylish accessory on your wrist.</p>
-            <p>At our premium watch collection, we believe that a watch is more than just a timekeeping device 
-               – it's a statement piece that reflects your personality and style.</p>
-            <a href="#catalog" class="catalog-button">View catalog</a>
-        </div>
-        <div class="image-section">
-            <img src="../img/About-us/about_us 2x.png" 
-                 srcset="../img/About-us/about_us 1x.png 1x, ../img/About-us/about_us 2x.png 2x" 
-                 alt="Premium watch on a luxury fabric" />
-        </div>
+<section id="about-us" class="about-us">
+  <div class="container about">
+    <div class="about-us-txt-btn">
+      <h2 class="about-us-title">About Us</h2>
+      <div class="about-us-description">
+        <p class="about-us-descr-text">
+          Welcome to our premium watch collection, where luxury and style meet
+          functionality and precision. Our selection of timepieces embodies the
+          very best in Swiss craftsmanship and engineering, ensuring that you'll
+          always have a reliable and stylish accessory on your wrist.
+        </p>
+        <p class="about-us-descr-text">
+          At our premium watch collection, we believe that a watch is more than
+          just a timekeeping device - it's a statement piece that reflects your
+          personality and style. So why settle for anything less than the best?
+        </p>
+      </div>
+      <a href="#catalog" class="about-us-btn-link">View catalog</a>
     </div>
+    <picture>
+      <source
+        srcset="
+          ../img/about-us/about-us-desk@1x.webp 1x,
+          ../img/about-us/about-us-desk@2x.webp 2x
+        "
+        media="(min-width:1280px)"
+      />
+      <source
+        srcset="
+          ../img/about-us/about-us-tab@1x.webp 1x,
+          ../img/about-us/about-us-tab@2x.webp 2x
+        "
+        media="(min-width:768px)"
+      />
+      <source
+        srcset="
+          ../img/about-us/about-us-mob@1x.webp 1x,
+          ../img/about-us/about-us-mob@2x.webp 2x
+        "
+        media="(max-width:767px)"
+      />
+      <img
+        src="../img/about-us/about-us-mob@1x.webp"
+        alt="Premium watch on a luxury fabric"
+      />
+    </picture>
+  </div>
 </section>
