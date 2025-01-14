@@ -1,0 +1,155 @@
+.advertisement {
+  background-color: none;
+  margin: 30px 0;
+}
+
+.advertisement-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  background-color: #0c0c0c;
+  max-width: 335px;
+  padding: 60px 28px 60px 28px;
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.advertisement-content::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url(../img/advertisement/bg-phone.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.2;
+  pointer-events: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.advertisement-sub-text {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 32px;
+  letter-spacing: -0.02em;
+  color: rgba(251, 251, 251, 1);
+}
+
+.advertisement-span-text {
+  color: rgba(251, 251, 251, 0.5);
+}
+
+.contact-us-button {
+  background-color: transparent;
+  width: 160px;
+  height: 48px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  color: #fbfbfb;
+  border: 1px solid rgba(251, 251, 251, 0.15);
+  border-radius: 16px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin-top: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-us-button:hover,
+.contact-us-button:active {
+  background-color: #fbfbfb;
+  color: #0c0c0c;
+}
+
+@media only screen and (min-width: 768px) {
+  .advertisement {
+    margin: 40px 0;
+  }
+
+  .advertisement-content {
+    padding: 80px 64px 80px 64px;
+    max-width: 704px;
+  }
+
+  .advertisement-content::after {
+    background-image: url(../img/advertisement/bg-tablet.jpg);
+  }
+
+  .contact-us-button {
+    margin-top: 32px;
+  }
+
+  .advertisement-sub-text {
+    margin-right: 0;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 44px;
+    letter-spacing: -0.02em;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .advertisement {
+    margin: 50px 0;
+  }
+
+  .advertisement-content {
+    flex-direction: row;
+    padding: 80px;
+    max-width: 1150px;
+  }
+
+  .advertisement-content::after {
+    background-image: url(../img/advertisement/bg-pc.jpg);
+  }
+
+  .advertisement-sub-text {
+    margin-right: 140px;
+    margin-bottom: 0px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 44px;
+    letter-spacing: -0.02em;
+    max-width: 690px;
+  }
+
+  .contact-us-button {
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (min-width: 375px) and (min-resolution: 192dpi) {
+  .advertisement-content::after {
+    background-image: url(../img/advertisement/bg-phone@2x.jpg);
+  }
+}
+
+@media only screen and (min-width: 768px) and (min-resolution: 192dpi) {
+  .advertisement-content::after {
+    background-image: url(../img/advertisement/bg-tablet@2x.jpg);
+  }
+}
+
+@media only screen and (min-width: 1280px) and (min-resolution: 192dpi) {
+  .advertisement-content::after {
+    background-image: url(../img/advertisement/bg-pc@2x.jpg);
+  }
+}
