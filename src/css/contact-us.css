@@ -173,3 +173,16 @@ width: 160px;
 height: 52px;
 }
 }
+.contact-us {
+  padding: 30px 0;
+}
+@media screen and (min-width: 768px) {
+  .contact-us {
+    padding: 40px 0;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .contact-us {
+    padding: 50px 0;
+  }
+}
