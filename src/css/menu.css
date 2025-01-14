@@ -1,0 +1,151 @@
+.menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 200px;
+    height: 100%;
+    background-color: black;
+	background-repeat: no-repeat;
+	background-image: url(../img/menu/watch-mobil/watch-mobil@1x.jpg);
+	background-position: center;
+    
+
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.menu.is-open {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+
+.menu-container {
+    position: relative;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.menu-close {
+    position: absolute;
+    top: 26px;
+    right: 32px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 34px;
+    height: 34px;
+	
+	border: medium none;
+	background-color: rgba(24,24,24,0);
+    padding: 0;
+}
+
+.menu-nav {
+	margin: auto;
+}
+
+.nav-link-menu {
+    display: block;
+    font-weight: 500;
+	margin-bottom: 24px;
+	font-size: 14px;
+	line-height: 1.2;
+	text-align: center;
+	color: #fbfbfb;
+}
+
+.nav-link-menu.current {
+    position: relative;
+}
+    
+.nav-link-menu.current::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -8px;
+	transform: translate(-50%, 50%);
+    width: 8px;
+    height: 8px;
+    background-color: #3350e9;
+    border-radius: 100%;
+}
+
+.social-menu-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.social-menu-item {
+    width: 34px;
+	height: 34px;
+}
+
+.social-menu-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgba(251, 251, 251, 0.1);
+    border-radius: 10px;
+}
+
+.svg-icon {
+    fill: rgba(255, 255, 255, 0.8);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-menu-item:hover .svg-icon {
+    fill: rgba(255, 255, 255, 1); 
+}
+
+
+@media screen and (max-width: 767px) and (min-resolution: 192dpi) {
+    .menu {        
+        background-image: url(../img/menu/watch-mobil/watch-mobil@2x.jpg);
+    }
+}
+
+@media screen and (min-width: 768px) { 
+    .menu {
+        width: 330px;
+        background-image: url(../img/menu/watch-tablet/watch-tablet@1x.jpg);
+    }
+
+    .menu-close {
+        width: 40px;
+        height: 40px;
+    }
+
+    .svg-closs {
+        width: 40px;
+        height: 40px;
+    }
+
+    .social-menu-item {
+        width: 36px;
+        height: 36px;
+    }
+}
+
+@media screen and (min-width: 768px) and (min-resolution: 192dpi) {
+    .menu {
+        background-image: url(../img/menu/watch-tablet/watch-tablet@2x.jpg);
+    }
+}
+
+@media screen and (min-width: 1280px) {
+	.menu {
+		display: none;
+	}
+}
