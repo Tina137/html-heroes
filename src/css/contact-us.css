@@ -1,51 +1,27 @@
-.contact-us-container {
-    display: flex;
-align-items: flex-start;
-justify-content: flex-start;
-flex-direction: column;
-gap: 24px;
-max-width: 335px;
-}
-@media screen and (min-width: 768px) {
-    .contact-us-container {
-        gap: 40px;
-        max-width: 704px;
-    }
-}
-@media screen and (min-width: 1158px) {
-    .contact-us-container {
-        padding: 0 65px;
-        max-width: 1280px;
-    }
-}
 .contact-us-header {
     font-weight: 600;
 font-size: 32px;
-line-height: 1;
-letter-spacing: -0.02em;
-color: #0c0c0c;
-margin: 0;
+margin-bottom: 24px;
 }
 @media screen and (min-width: 768px) {
     .contact-us-header {
 font-size: 48px;
 line-height: 0.91;
+margin-bottom: 40px;
     }
 }
 .contact-us-general-div {
     display: flex;
-align-items: flex-start;
-justify-content: flex-start;
 flex-direction: column;
 gap: 20px;
-width: 335px;
+width: 100%
 }
 @media screen and (min-width: 768px) {
-    .contact-us-general-div { width: 704px;
+    .contact-us-general-div { 
     gap: 40px;}
 }
 @media screen and (min-width: 1158px) {
-    .contact-us-general-div {width: 1150px;
+    .contact-us-general-div {
         flex-direction: row;
     }
 }
@@ -69,7 +45,7 @@ padding: 50px 122px;
 @media screen and (min-width: 1158px) {
     .contact-us-page {
         padding: 50px 60px;
-        max-height: 460px;
+        width: 580px;
     }
 }
 .ultimate-div {
@@ -119,48 +95,60 @@ max-width: 279px;
     .casi-ultimo-div {max-width: 704px;}
 }
 
-.contacts-div-inp {max-width: 223px;}
 @media screen and (min-width: 768px) {
-    .contact-div-inp {
-        max-width: 704px;
+    .contacts-div-inp {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
     }
 }
 .contact-input-text {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-    gap: 18px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.28571;
+    color: #0c0c0c;
     border: 1px solid rgba(12, 12, 12, 0.15);
-    border-radius: 12px;
-    padding: 12px 136px 12px 14px;
-    max-width: 129px;
-    height: 18px;
+border-radius: 12px;
+padding: 12px 226px 12px 14px;
+max-width: 279px;
+height: 42px;
+
 }
 @media screen and (min-width: 768px) {
     .contact-input-text {
-padding: 16px 315px 16px 16px;
-width: 460px;
-height: 20px;
+font-size: 16px;
+line-height: 1.25;
+padding: 16px 398px  16px 16px;
+max-width: 460px;
+height: 52px;
+
     }
+}
+.comment-area {
+    display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: row;
 }
 .comment-text {
     border: 1px solid rgba(12, 12, 12, 0.15);
-border-radius: 12px;
-padding: 12px 136px 54px 14px;
-font-weight: 400;
+    border-radius: 12px;
+    padding: 12px 136px 54px 14px;
+    width: 279px;
+    height: 84px;
+    font-weight: 400;
 font-size: 14px;
 line-height: 1.28571;
 color: #0c0c0c;
-width: 129px;
-height: 18px;
 }
 @media screen and (min-width: 768px) {
     .comment-text {
+border: 1px solid rgba(12, 12, 12, 0.15);
+border-radius: 12px;
 padding: 16px 315px 54px 16px;
-max-width: 460px;
-height: 20px;
-font-size: 16px;
+width: 460px;
+height: 90px;
     }
 }
 .send-button {
