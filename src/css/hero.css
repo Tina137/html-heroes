@@ -1,0 +1,244 @@
+@media (min-width: 320px) and (max-width: 374px) {
+    .image {
+        width: 50px;
+        height: 50px;
+        margin-left: -10px;
+    }
+}
+
+@media (min-width: 375px) {
+
+    .highlight {
+        color: #3350E9;
+    }
+
+    .text11 {
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 38px;
+        letter-spacing: -0.02em;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        
+
+    }
+
+    .text22 {
+        color: #0C0C0CB2;
+        position: relative;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 18px;
+        letter-spacing: -0.02em;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        
+    }
+
+    .chasi1 {
+        width: 375px;
+        height: 366px;
+        gap: 0px;
+        border-radius: 50px;
+    }
+
+    .SD {
+        position: relative;
+        left:270px;
+        top: 25px;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: -0.02em;
+        text-align: left;
+        text-decoration-line: underline;
+        text-decoration-style: solid;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        width: 103px;
+    }
+
+    .scroll-down {
+        color: #0C0C0C;
+    }
+
+    .team-avatars {
+        display: flex;
+        align-items: center;
+        position: relative;
+        bottom: 20px;
+    }
+
+    .TeamM {
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        border: 2px solid white;
+        margin-left: -20px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        background-color: white;
+    }
+
+    .TeamM:first-child {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .highlight {
+        color: #3350E9;
+    }
+
+    .text11 {
+        font-size: 40px;
+        width: 597px;
+        height: 189px;
+        gap: 0px;
+        font-size: 72px;
+        font-weight: 600;
+        line-height: 63px;
+        letter-spacing: -0.02em;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+
+    }
+
+    .text22 {
+        color: #0C0C0CB2;
+        position: relative;
+        bottom: 20px;
+        font-size: 16px;
+
+    }
+
+    .chasi1 {
+        width: 768px;
+        height: 432px;
+        gap: 0px;
+        border-radius: 50px;
+    }
+
+    .SD {
+        position: relative;
+        left: 665px;
+        bottom: 55px;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: -0.02em;
+        text-align: left;
+        text-decoration-line: underline;
+        text-decoration-style: solid;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        width: 103px;
+    }
+
+    .scroll-down {
+        color: #0C0C0C;
+
+    }
+
+    .team-avatars {
+        display: flex;
+        align-items: center;
+        width: 60px;
+        height: 60px;
+        position: relative;
+        bottom: 358px;
+        left: 660px;
+    }
+
+    .TeamM {
+        border-radius: 50%;
+        border: 2px solid white;
+        margin-left: -20px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        background-color: white;
+    }
+
+    .TeamM:first-child {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 1280px) {
+
+    .highlight {
+        color: #3350E9;
+    }
+
+    .text11 {
+        font-size: 72px;
+        width: 597px;
+        height: 189px;
+        gap: 0px;
+        font-size: 72px;
+        font-weight: 600;
+        line-height: 63px;
+        letter-spacing: -0.02em;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+
+    }
+
+    .text22 {
+        color: #0C0C0CB2;
+        position: relative;
+        bottom: 20px;
+    }
+
+    .chasi1 {
+        width: 1770px;
+        height: 996px;
+        gap: 0px;
+        border-radius: 50px;
+    }
+
+    .SD {
+        position: relative;
+        left: 1670px;
+        bottom: 55px;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: -0.02em;
+        text-align: left;
+        text-decoration-line: underline;
+        text-decoration-style: solid;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        width: 103px;
+    }
+
+    .scroll-down {
+        color: #0C0C0C;
+    }
+
+    .team-avatars {
+        display: flex;
+        align-items: center;
+        width: 60px;
+        height: 60px;
+        position: relative;
+        bottom: 358px;
+        left: 1660px;
+    }
+
+    .TeamM {
+        border-radius: 50%;
+        border: 2px solid white;
+        margin-left: -20px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        background-color: white;
+    }
+
+    .TeamM:first-child {
+        margin-left: 0;
+    }
+}
