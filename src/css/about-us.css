@@ -1,10 +1,3 @@
-body {
-    font-family: 'Gilroy', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 .container {
     display: flex;
     max-width: 1200px;
@@ -15,18 +8,14 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    box-sizing: border-box;
 }
-
 
 .about-section {
     flex: 1;
     background-color: #F3F3F3;
     border-radius: 50px;
     padding: 80px;
-    box-sizing: border-box;
     text-align: left;
-    height: auto;
     margin: 0;
 }
 
@@ -42,7 +31,6 @@ body {
     color: #0C0C0C;
     margin-bottom: 20px;
 }
-
 
 .catalog-button {
     display: inline-block;
@@ -67,14 +55,13 @@ body {
 .image-section {
     flex: 1;
     padding: 40px;
-    box-sizing: border-box;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .image-section img {
-    width: 100%;
+    max-width: 100%;
     height: auto;
     border-radius: 20px;
     object-fit: cover;
@@ -88,7 +75,7 @@ body {
     }
 
     .about-section {
-        width: 90%;
+        width: 100%;
         padding: 40px;
     }
 
