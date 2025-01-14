@@ -1,0 +1,113 @@
+
+/* !!!!!!!HERO LEFT!!!!!! */
+.hero {
+  padding: 60px 0 30px 0;
+}
+.text11 {
+  letter-spacing: -0.02em;
+  line-height: 38px;
+  font-size: 40px;
+  font-weight: 600;
+  color: #0c0c0c;
+  margin-bottom: 20px;
+}
+.highlight {
+  color: #3350e9;
+}
+.text22 {
+  color: rgba(12, 12, 12, 0.7);
+  margin-bottom: 28px;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -0.02em;
+  font-weight: 500;
+}
+@media only screen and (min-width: 768px) {
+  .hero {
+    padding: 80px 0 40px 0;
+  }
+  .text11 {
+    line-height: 60px;
+    font-size: 70px;
+  }
+  .text22 {
+    margin-bottom: 40px;
+    font-size: 16px;
+    line-height: 20px;
+    max-width: 480px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .hero {
+    padding: 80px 0 50px 0;
+  }
+  .text11 {
+    line-height: 63px;
+    font-size: 72px;
+    max-width: 597px;
+  }
+}
+/* !!!!!!!!!!HERO RIGHT!!!!!!!! */
+.hero-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+.scroll-down {
+  color: #0c0c0c;
+  line-height: 18px;
+  font-size: 14px;
+  letter-spacing: -0.02em;
+  border-bottom: 1px solid #0c0c0c;
+}
+@media only screen and (min-width: 768px) {
+  .hero-people {
+    width: 366px;
+  }
+  .hero-container {
+    display: flex;
+    gap: 11px;
+  }
+  .hero-right {
+    flex-direction: column;
+    height: 260px;
+  }
+  .scroll-down {
+    font-size: 20px;
+    line-height: 20px;
+    width: 102px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .hero-container {
+    gap: 0;
+    justify-content: space-between;
+  }
+  .hero-people {
+    width: 146px;
+  }
+  .hero-right {
+    height: 269px;
+  }
+}
+
+/* !!!!!!!HERO-IMG!!!!! */
+.hero-img {
+  margin-top: 28px;
+  height: 366px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../img/hero/Rectangle.png);
+}
+@media only screen and (min-width: 768px) {
+  .hero-img {
+    margin-top: 40px;
+    height: 520px;
+    background-image: url(../img/hero/RectangleTablet.png);
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .hero-img {
+    background-image: url(../img/hero/RectangleDesktop.png);
+  }
+}
