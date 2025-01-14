@@ -1,8 +1,8 @@
 .menu {
     position: fixed;
     top: 0;
-    left: 0;
-    width: 100%;
+    right: 0;
+    width: 200px;
     height: 100%;
     background-color: black;
 	background-repeat: no-repeat;
@@ -111,13 +111,14 @@
 
 
 @media screen and (max-width: 767px) and (min-resolution: 192dpi) {
-    .menu {
+    .menu {        
         background-image: url(../img/menu/watch-mobil/watch-mobil@2x.jpg);
     }
 }
 
 @media screen and (min-width: 768px) { 
     .menu {
+        width: 330px;
         background-image: url(../img/menu/watch-tablet/watch-tablet@1x.jpg);
     }
 
