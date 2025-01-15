@@ -4,53 +4,91 @@
     <div class="contact-us-general-div">
       <div class="contact-us-page">
         <div class="ultimate-div">
-          <p class="contact-us-text">Please use the form below to contact us. Enter your name, email, phone, and
-            message and we'll get back to you shortly.</p>
+          <p class="contact-us-text">
+            Please use the form below to contact us. Enter your name, email,
+            phone, and message and we'll get back to you shortly.
+          </p>
 
           <form class="form-contacts" name="contacts-inputs">
             <div class="casi-ultimo-div">
               <div class="contacts-div-inp">
                 <label for="user-name" class="label-user"></label>
-                <input type="text" class="contact-input-text" name="user-name" id="user-name" placeholder="Name">
+                <input
+                  required
+                  type="text"
+                  class="contact-input-text"
+                  name="user-name"
+                  id="user-name"
+                  placeholder="Name"
+                />
               </div>
               <div class="contacts-div-inp">
                 <label for="user-email" class="label-user"></label>
-                <input type="email" class="contact-input-text" name="user-name" id="user-email"
-                  pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$ , (+380-XX-XXX-XX-XX)" placeholder="Email">
+                <input
+                  required
+                  type="email"
+                  class="contact-input-text"
+                  name="user-name"
+                  id="user-email"
+                  pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$ , (+380-XX-XXX-XX-XX)"
+                  placeholder="Email"
+                />
               </div>
               <div class="contacts-div-inp">
                 <label for="user-phone" class="label-user"></label>
-                <input type="tel" class="contact-input-text" name="user-name" id="user-phone"
-                  pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" placeholder="+380">
+                <input
+                  required
+                  type="tel"
+                  class="contact-input-text"
+                  name="user-name"
+                  id="user-phone"
+                  pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+                  placeholder="+380"
+                />
               </div>
               <div class="comment-area">
                 <label class="label-user" for="user-comment"></label>
-                <textarea id="user-comment" class="comment-text" placeholder="Comment" name="user-comment"></textarea>
+                <textarea
+                  id="user-comment"
+                  class="comment-text"
+                  placeholder="Comment"
+                  name="user-comment"
+                ></textarea>
               </div>
             </div>
-            <button type="submit" class="send-button" >Send</button>
-
-
+            <button type="submit" class="send-button">Send</button>
           </form>
         </div>
       </div>
       <div class="contact-us-img-div">
         <picture>
           <source
-          srcset="./img/contact-us/reloj-dekstop.jpg 1x, ./img/contact-us/reloj-dekstop@2x.jpg 2x"
-                media="(min-width: 1280px)"
-              />
-              <source
-              srcset="./img/contact-us/reloj-tablet.jpg 1x, ./img/contact-us/reloj-tablet@2x.jpg 2x"
-                media="(min-width: 768px)"
-              />
-              <source
-              srcset="./img/contact-us/reloj-mob.jpg 1x, ./img/contact-us/reloj-mob@2x.jpg 2x"
-                media="(max-width: 767px)"
-              />
-          <img class="contact-us-img" src="./img/contact-us/reloj-mob.jpg" alt="black-watch" >
+            srcset="
+              ./img/contact-us/reloj-dekstop.jpg    1x,
+              ./img/contact-us/reloj-dekstop@2x.jpg 2x
+            "
+            media="(min-width: 1280px)"
+          />
+          <source
+            srcset="
+              ./img/contact-us/reloj-tablet.jpg    1x,
+              ./img/contact-us/reloj-tablet@2x.jpg 2x
+            "
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="
+              ./img/contact-us/reloj-mob.jpg    1x,
+              ./img/contact-us/reloj-mob@2x.jpg 2x
+            "
+            media="(max-width: 767px)"
+          />
+          <img
+            class="contact-us-img"
+            src="./img/contact-us/reloj-mob.jpg"
+            alt="black-watch"
+          />
         </picture>
-        
       </div>
     </div>
   </div>

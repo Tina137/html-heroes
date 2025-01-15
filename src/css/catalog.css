@@ -14,8 +14,9 @@
 .catalog-item {
   border: 1px solid rgba(12, 12, 12, 0.05);
   border-radius: 30px;
-  width: 335px;
-  height: 364px;
+  /* width: 335px;
+  height: 364px; */
+  padding: 24px 28px;
   background: #f3f3f3;
 }
 @media screen and (min-width: 768px) {
@@ -53,10 +54,6 @@
   .hidden-item {
     display: none;
   }
-}
-.catalog-list-image {
-  margin: 0 auto;
-  margin-top: 24px;
 }
 .catalog-section-title {
   font-weight: 600;
@@ -97,7 +94,7 @@
   letter-spacing: -0.02em;
   color: rgba(12, 12, 12, 0.5);
 }
-.item-description-container {
+/* .item-description-container {
   padding: 10px 28px 24px 28px;
 }
 @media screen and (min-width: 768px) {
@@ -105,7 +102,7 @@
     padding-right: 32px;
     padding-left: 32px;
   }
-}
+} */
 .catalog-btn {
   font-weight: 500;
   font-size: 14px;
