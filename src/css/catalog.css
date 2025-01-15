@@ -49,11 +49,11 @@
     column-gap: 23px;
   }
 }
-@media screen and (max-width: 767px) {
+/* @media screen and (max-width: 767px) {
   .hidden-item {
     display: none;
   }
-}
+} */
 .catalog-list-image {
   margin: 0 auto;
   margin-top: 24px;
